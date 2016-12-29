@@ -2,9 +2,11 @@
 title: "Animated Visualizations for Machine Learning Algorithms"
 output: 
    html_document:
-     toc: true 
-     theme: cosmo
-     highlight: kate
+      toc: true 
+      theme: cosmo
+      highlight: kate
+      include:
+         after_body: footer.html
 ---
 
 ****
@@ -29,15 +31,29 @@ Classification **Decision Boundary** of the **Gradient Boosting Machine** (GBM) 
 
 ## K-Nearest Neighbors Classifier
 
-Analysing how the the number of nearest neighbors $k$ affects the classification **Decision Boundary** of the **KNN** algorithm from the `R` package [fastknn](https://davpinto.github.io/fastknn).
+Analysing how the the number of nearest neighbors $k$ affects the classification **Decision Boundary** of the **KNN** algorithm from the `R` package [fastknn](https://davpinto.github.io/fastknn). We consider 2 probability estimators for the class membership probabilities: a *voting rule* and a *weighted voting rule* (shrinkage estimator).
+
+<iframe src="./simul/knn-decision/index.html" frameborder="0" height="600" width="100%"></iframe>
+
+*__[+ Source Code](https://github.com/davpinto/ml-simulations/tree/master/simulations/knn-decision)__*
+
+----
 
 ## Expectation-Maximization Algorithm
 
 **Gaussian Mixture Model** (GMM) fitted by **Expectation-Maximization** (EM) algorithm with random initialization.
 
+Coming soon...
+
+----
+
 ## Gaussian Mixture Density
 
 **Density** estimation using a GMM with 7 components. Model fitting is performed by **Expectation-Maximization** algorithm with randomly assigned initial parameters. Positive definiteness of covariance matrix is achieved replacing the unrestricted maximum likelihood estimator by *Ledoit-Wolf* **shrinkage estimator**.
+
+Coming soon...
+
+----
 
 ## Regularized Extreme Learning Machine
 
@@ -52,6 +68,10 @@ Classification **Decision Boundary** of a *Single Layer Feedforward Network* (wi
 ## Image Segmentation with K-Means
 
 Image pixels grouping into k different clusters using the k-means algorithm. A different color is assigned for each cluster. This simulation is based on the following post: [R-bloggers](http://www.r-bloggers.com/r-k-means-clustering-on-an-image/).
+
+Coming soon...
+
+----
 
 ## Image Reconstruction with Principal Components Analysis
 

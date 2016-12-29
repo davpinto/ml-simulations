@@ -19,6 +19,10 @@ knitr::include_graphics("./img/xgb-iterations.jpg")
 
 - **KNN** decision boundary varying the number of nearest neighbors $k$.
 
+```{r, out.width="75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./img/knn-decision.jpg")
+```
+
 - Multivariate **Gaussian Mixture Models** (GMMs) fitting by **EM algorithm**.
 
 - Multimodal **Density Estimation** using GMMs.

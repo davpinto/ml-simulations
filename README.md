@@ -11,6 +11,8 @@ This repository contains the source code for **animated visualizations** of some
 
 -   **KNN** decision boundary varying the number of nearest neighbors *k*.
 
+<img src="./img/knn-decision.jpg" width="75%" style="display: block; margin: auto;" />
+
 -   Multivariate **Gaussian Mixture Models** (GMMs) fitting by **EM algorithm**.
 
 -   Multimodal **Density Estimation** using GMMs.
