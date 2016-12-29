@@ -31,6 +31,6 @@ saveHTML({
    }
 }, single.opts = "'controls':['first', 'previous', 'play', 'next', 'last', 'loop', 'speed'], 'delayMin':0, 'utf8':false, 'theme':'light'",
 interval=0.25, autoplay=FALSE, ani.width=700, ani.height=500, clean=TRUE, htmlfile="index.html", verbose = FALSE,
-autobrowse=FALSE, title="", description="", img.name = "img")
+autobrowse=FALSE, title="", description="", img.name = "img", ani.dev = "jpeg", ani.type = "jpeg")
 
-setwd("../../")
+setwd("../../../")
