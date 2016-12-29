@@ -1,0 +1,43 @@
+---
+title: "Animated Visualizations for Machine Learning Algorithms"
+output: 
+   html_document:
+     toc: true 
+     theme: cosmo
+     highlight: kate
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+> Simulation of famous machine learning algorithms
+
+Here we present beautiful animated visualizations for some famous machine learning algorithms, built with the `R` package `animation`. The source code is available on [GitHub](https://github.com/davpinto/ml-simulations).
+
+## Expectation-Maximization Algorithm
+
+**Gaussian Mixture Model** (GMM) fitted by **Expectation-Maximization** (EM) algorithm with random initialization.
+
+## Gaussian Mixture Density
+
+**Density** estimation using a GMM with 7 components. Model fitting is performed by **Expectation-Maximization** algorithm with randomly assigned initial parameters. Positive definiteness of covariance matrix is achieved replacing the unrestricted maximum likelihood estimator by *Ledoit-Wolf* **shrinkage estimator**.
+
+## Regularized Extreme Learning Machine
+
+Classification **Decision Boundary** of a *Single Layer Feedforward Network* (with 150 randomly assigned hidden neurons) trained by **Extreme Learning Machine** (ELM) algorithm considering ridge regression instead of ordinary least squares estimation. The larger the penalty parameter, the greater the amount of smoothing.
+
+<iframe src="../simulations/elm-regularization/index.html" frameborder="0" height="600" width="100%"></iframe>
+
+*__[+ Source Code](https://github.com/davpinto/ml-simulations/simulations/elm-regularization)__*
+
+----
+
+## Image Segmentation with K-Means
+
+Image pixels grouping into k different clusters using the k-means algorithm. A different color is assigned for each cluster. This simulation is based on the following post: [R-bloggers](http://www.r-bloggers.com/r-k-means-clustering-on-an-image/).
+
+## Image Reconstruction with Principal Components Analysis
+
+Image reconstruction using the k first principal components (PCs).
+ 
