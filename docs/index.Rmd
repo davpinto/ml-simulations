@@ -69,7 +69,9 @@ Classification **Decision Boundary** of a *Single Layer Feedforward Network* (wi
 
 Image pixels grouping into k different clusters using the k-means algorithm. A different color is assigned for each cluster. This simulation is based on the following post: [R-bloggers](http://www.r-bloggers.com/r-k-means-clustering-on-an-image/).
 
-Coming soon...
+<iframe src="./simul/kmeans-segmentation/index.html" frameborder="0" height="600" width="100%"></iframe>
+
+*__[+ Source Code](https://github.com/davpinto/ml-simulations/tree/master/simulations/kmeans-segmentation)__*
 
 ----
 
