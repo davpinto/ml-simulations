@@ -27,9 +27,9 @@ Here we present beautiful animated visualizations for some famous machine learni
 
 Classification **Decision Boundary** of a *Single Layer Feedforward Network* (with 150 randomly assigned hidden neurons) trained by **Extreme Learning Machine** (ELM) algorithm considering ridge regression instead of ordinary least squares estimation. The larger the penalty parameter, the greater the amount of smoothing.
 
-<iframe src="../simulations/elm-regularization/index.html" frameborder="0" height="600" width="100%"></iframe>
+<iframe src="./simul/elm-regularization/index.html" frameborder="0" height="600" width="100%"></iframe>
 
-*__[+ Source Code](https://github.com/davpinto/ml-simulations/simulations/elm-regularization)__*
+*__[+ Source Code](https://github.com/davpinto/ml-simulations/tree/master/simulations/elm-regularization)__*
 
 ----
 
