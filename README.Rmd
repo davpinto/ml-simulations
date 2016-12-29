@@ -11,6 +11,14 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = 'center')
 
 This repository contains the source code for **animated visualizations** of some famous **machine learning** algorithms. They were created using the `R` package `animation`, and ilustrate algorithm convergence and the effect of hyper-parameter tuning. The simulations available so far are:
 
+- **XGBoost** decision boundary as **iterations** proceed.
+
+```{r, out.width="75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./img/xgb-iterations.jpg")
+```
+
+- **KNN** decision boundary varying the number of nearest neighbors $k$.
+
 - Multivariate **Gaussian Mixture Models** (GMMs) fitting by **EM algorithm**.
 
 - Multimodal **Density Estimation** using GMMs.
@@ -18,7 +26,7 @@ This repository contains the source code for **animated visualizations** of some
 - **Tikhonov Regularization** effect in **Extreme Learning Machines** (ELMs).
 
 ```{r, out.width="75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./img/elm-regularization.jpeg")
+knitr::include_graphics("./img/elm-regularization.jpg")
 ```
 
 - **Image Segmentation** using **K-means**.
@@ -26,7 +34,7 @@ knitr::include_graphics("./img/elm-regularization.jpeg")
 - Image **Reconstruction** using **Principal Components Analysis** (PCA).
 
 ```{r, out.width="75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./img/pca-reconstruction.jpeg")
+knitr::include_graphics("./img/pca-reconstruction.jpg")
 ```
 
 ****

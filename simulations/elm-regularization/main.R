@@ -2,8 +2,7 @@ setwd("./simulations/elm-regularization/")
 
 ## Load required packages
 library('ggplot2')
-library('scales')
-library('gridExtra')
+library('viridis')
 library('animation')
 
 ## Load utility functions

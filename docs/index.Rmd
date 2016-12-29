@@ -17,6 +17,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Here we present beautiful animated visualizations for some famous machine learning algorithms, built with the `R` package `animation`. The source code is available on [GitHub](https://github.com/davpinto/ml-simulations).
 
+## Gradient Boosting Machine Iterations
+
+Classification **Decision Boundary** of the **Gradient Boosting Machine** (GBM) from the `R` package `xgboost` as boosting iterations proceed.
+
+<iframe src="./simul/xgb-iterations/index.html" frameborder="0" height="600" width="100%"></iframe>
+
+*__[+ Source Code](https://github.com/davpinto/ml-simulations/tree/master/simulations/xgb-iterations)__*
+
+----
+
+## K-Nearest Neighbors Classifier
+
+Analysing how the the number of nearest neighbors $k$ affects the classification **Decision Boundary** of the **KNN** algorithm from the `R` package [fastknn](https://davpinto.github.io/fastknn).
+
 ## Expectation-Maximization Algorithm
 
 **Gaussian Mixture Model** (GMM) fitted by **Expectation-Maximization** (EM) algorithm with random initialization.

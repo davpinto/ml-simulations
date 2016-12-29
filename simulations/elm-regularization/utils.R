@@ -66,8 +66,7 @@ generateELMDecisionBoundary <- function(model, x, y)
    sh.value <- bquote(lambda == .(model$l));
    g <- ggplot() + 
       geom_tile(data=data.contour, aes(x=x1,y=x2,fill=y), alpha = 0.8) +
-      viridis::scale_fill_viridis(guide = "none", begin = 0.1, end = 0.9) +
-      # scale_fill_gradientn(guide='none', colors=gray(1:500/500)) +
+      scale_fill_viridis(guide = "none", begin = 0.1, end = 0.9) +
       stat_contour(data=data.contour, aes(x=x1, y=x2, z=as.numeric(y>0.5)), 
                    color='white', alpha=0.5, size = 1, bins=1) +
       geom_point(data=data.points, aes(x=x1,y=x2,color=factor(y)), size=3, 
