@@ -11,10 +11,14 @@ This repository contains the source code for **animated visualizations** of some
 
 -   **Tikhonov Regularization** effect in **Extreme Learning Machines** (ELMs).
 
-<img src="./img/elm-regularization.png" width="75%" style="display: block; margin: auto;" />
+<img src="./img/elm-regularization.jpeg" width="75%" style="display: block; margin: auto;" />
 
 -   **Image Segmentation** using **K-means**.
 
 -   Image **Reconstruction** using **Principal Components Analysis** (PCA).
 
-Take a look at the **[website](davpinto.github.io/ml-simulations)** and have fun!
+<img src="./img/pca-reconstruction.jpeg" width="75%" style="display: block; margin: auto;" />
+
+------------------------------------------------------------------------
+
+Take a look at the **[website](https://davpinto.github.io/ml-simulations)** and have fun!

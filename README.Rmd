@@ -18,11 +18,17 @@ This repository contains the source code for **animated visualizations** of some
 - **Tikhonov Regularization** effect in **Extreme Learning Machines** (ELMs).
 
 ```{r, out.width="75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./img/elm-regularization.png")
+knitr::include_graphics("./img/elm-regularization.jpeg")
 ```
 
 - **Image Segmentation** using **K-means**.
 
 - Image **Reconstruction** using **Principal Components Analysis** (PCA).
 
-Take a look at the **[website](davpinto.github.io/ml-simulations)** and have fun!
+```{r, out.width="75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./img/pca-reconstruction.jpeg")
+```
+
+****
+
+Take a look at the **[website](https://davpinto.github.io/ml-simulations)** and have fun!

@@ -42,4 +42,9 @@ Image pixels grouping into k different clusters using the k-means algorithm. A d
 ## Image Reconstruction with Principal Components Analysis
 
 Image reconstruction using the k first principal components (PCs).
- 
+
+<iframe src="./simul/pca-reconstruction/index.html" frameborder="0" height="600" width="100%"></iframe>
+
+*__[+ Source Code](https://github.com/davpinto/ml-simulations/tree/master/simulations/pca-reconstruction)__*
+
+----
