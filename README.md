@@ -1,9 +1,9 @@
-Machine Learning Simulations
+Machine Learning Animations
 ================
 
 > Understanding Machine Learning through Animated Visualizations
 
-This repository contains the source code for **animated visualizations** of some famous **machine learning** algorithms. They were created using the `R` package `animation`, and ilustrate algorithm convergence and the effect of hyper-parameter tuning. The simulations available so far are:
+This repository contains the source code for **animated visualizations** of some famous **machine learning** algorithms. They were created using the `R` package `animation`, and ilustrate algorithm convergence and the effect of hyper-parameter tuning. The animations available so far are:
 
 -   **XGBoost** decision boundary as **iterations** proceed:
 
@@ -24,6 +24,12 @@ This repository contains the source code for **animated visualizations** of some
 -   Multivariate **Gaussian Mixture Models** (GMMs) fitting by **EM algorithm**.
 
 -   Multimodal **Density Estimation** using GMMs.
+
+<img src="./img/gmm-density.jpg" width="75%" style="display: block; margin: auto;" />
+
+<a href="https://davpinto.github.io/ml-simulations/#gaussian-mixture-density" target="_blank">+ View Animation</a>
+
+------------------------------------------------------------------------
 
 -   **Tikhonov Regularization** effect in **Extreme Learning Machines** (ELMs).
 

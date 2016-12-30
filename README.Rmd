@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Simulations"
+title: "Machine Learning Animations"
 output: github_document
 ---
 
@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = 'center')
 
 > Understanding Machine Learning through Animated Visualizations 
 
-This repository contains the source code for **animated visualizations** of some famous **machine learning** algorithms. They were created using the `R` package `animation`, and ilustrate algorithm convergence and the effect of hyper-parameter tuning. The simulations available so far are:
+This repository contains the source code for **animated visualizations** of some famous **machine learning** algorithms. They were created using the `R` package `animation`, and ilustrate algorithm convergence and the effect of hyper-parameter tuning. The animations available so far are:
 
 - **XGBoost** decision boundary as **iterations** proceed:
 
@@ -34,6 +34,14 @@ knitr::include_graphics("./img/knn-decision.jpg")
 - Multivariate **Gaussian Mixture Models** (GMMs) fitting by **EM algorithm**.
 
 - Multimodal **Density Estimation** using GMMs.
+
+```{r, out.width="75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./img/gmm-density.jpg")
+```
+
+<a href="https://davpinto.github.io/ml-simulations/#gaussian-mixture-density" target="_blank">+ View Animation</a>
+
+----
 
 - **Tikhonov Regularization** effect in **Extreme Learning Machines** (ELMs).
 

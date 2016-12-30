@@ -1,25 +1,29 @@
 ---
-title: "Animated Visualizations for Machine Learning Algorithms"
+title: "Animated Visualizations of Machine Learning Algorithms"
 output: 
-   html_document:
-      toc: true 
-      theme: cosmo
-      highlight: kate
+   rmdformats::material:
+      self_contained: false
+      thumbnails: false
+      lightbox: false
+      gallery: false
+      highlight: tango
       include:
          after_body: footer.html
 ---
-
-****
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-> Simulation of famous machine learning algorithms
+# Machine Learning Animations
 
-Here we present beautiful animated visualizations for some famous machine learning algorithms, built with the `R` package `animation`. The source code is available on [GitHub](https://github.com/davpinto/ml-simulations).
+> Understanding machine learning through beautiful algorithm animations
 
-## Gradient Boosting Machine Iterations
+Here we present beautiful **animated visualizations** for some popular **Machine Learning** algorithms, built with the `R` package `animation`. These animations help to understand algorithm iterations and hyper-parameter tuning.
+
+The source code is available on **[GitHub](https://github.com/davpinto/ml-simulations)**.
+
+# Gradient Boosting Machine Iterations
 
 Classification **Decision Boundary** of the **Gradient Boosting Machine** (GBM) from the `R` package `xgboost` as boosting iterations proceed.
 
@@ -29,7 +33,7 @@ Classification **Decision Boundary** of the **Gradient Boosting Machine** (GBM) 
 
 ----
 
-## K-Nearest Neighbors Classifier
+# K-Nearest Neighbors Classifier
 
 Analysing how the the number of nearest neighbors $k$ affects the classification **Decision Boundary** of the **KNN** algorithm from the `R` package [fastknn](https://davpinto.github.io/fastknn). We consider 2 probability estimators for the class membership probabilities: a *voting rule* and a *weighted voting rule* (shrinkage estimator).
 
@@ -39,7 +43,7 @@ Analysing how the the number of nearest neighbors $k$ affects the classification
 
 ----
 
-## Expectation-Maximization Algorithm
+# Expectation-Maximization Algorithm
 
 **Gaussian Mixture Model** (GMM) fitted by **Expectation-Maximization** (EM) algorithm with random initialization.
 
@@ -47,15 +51,17 @@ Coming soon...
 
 ----
 
-## Gaussian Mixture Density
+# Gaussian Mixture Density
 
 **Density** estimation using a GMM with 7 components. Model fitting is performed by **Expectation-Maximization** algorithm with randomly assigned initial parameters. Positive definiteness of covariance matrix is achieved replacing the unrestricted maximum likelihood estimator by *Ledoit-Wolf* **shrinkage estimator**.
 
-Coming soon...
+<iframe src="./simul/gmm-density/index.html" frameborder="0" height="450" width="100%"></iframe>
+
+*__Source Code__* is not available yet.
 
 ----
 
-## Regularized Extreme Learning Machine
+# Regularized Extreme Learning Machine
 
 Classification **Decision Boundary** of a *Single Layer Feedforward Network* (with 150 randomly assigned hidden neurons) trained by **Extreme Learning Machine** (ELM) algorithm considering ridge regression instead of ordinary least squares estimation. The larger the penalty parameter, the greater the amount of smoothing.
 
@@ -65,7 +71,7 @@ Classification **Decision Boundary** of a *Single Layer Feedforward Network* (wi
 
 ----
 
-## Image Segmentation with K-Means
+# Image Segmentation with K-Means
 
 Image pixels grouping into k different clusters using the k-means algorithm. A different color is assigned for each cluster. This simulation is based on the following post: [R-bloggers](http://www.r-bloggers.com/r-k-means-clustering-on-an-image/).
 
@@ -75,7 +81,7 @@ Image pixels grouping into k different clusters using the k-means algorithm. A d
 
 ----
 
-## Image Reconstruction with Principal Components Analysis
+# Image Reconstruction with Principal Components Analysis
 
 Image reconstruction using the k first principal components (PCs).
 
