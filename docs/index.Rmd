@@ -47,7 +47,9 @@ Analysing how the the number of nearest neighbors $k$ affects the classification
 
 **Gaussian Mixture Model** (GMM) fitted by **Expectation-Maximization** (EM) algorithm with random initialization.
 
-Coming soon...
+<iframe src="./simul/em-algorithm/index.html" frameborder="0" height="450" width="100%"></iframe>
+
+*__Source Code__* is not available yet.
 
 ----
 

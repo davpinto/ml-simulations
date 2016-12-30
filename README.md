@@ -23,6 +23,12 @@ This repository contains the source code for **animated visualizations** of some
 
 -   Multivariate **Gaussian Mixture Models** (GMMs) fitting by **EM algorithm**.
 
+<img src="./img/em-algorithm.jpg" width="75%" style="display: block; margin: auto;" />
+
+<a href="https://davpinto.github.io/ml-simulations/#expectation-maximization-algorithm" target="_blank">+ View Animation</a>
+
+------------------------------------------------------------------------
+
 -   Multimodal **Density Estimation** using GMMs.
 
 <img src="./img/gmm-density.jpg" width="75%" style="display: block; margin: auto;" />

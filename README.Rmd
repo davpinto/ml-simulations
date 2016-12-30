@@ -33,6 +33,14 @@ knitr::include_graphics("./img/knn-decision.jpg")
 
 - Multivariate **Gaussian Mixture Models** (GMMs) fitting by **EM algorithm**.
 
+```{r, out.width="75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./img/em-algorithm.jpg")
+```
+
+<a href="https://davpinto.github.io/ml-simulations/#expectation-maximization-algorithm" target="_blank">+ View Animation</a>
+
+----
+
 - Multimodal **Density Estimation** using GMMs.
 
 ```{r, out.width="75%", fig.align='center', echo=FALSE}
